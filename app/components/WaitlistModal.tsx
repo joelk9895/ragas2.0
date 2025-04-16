@@ -63,10 +63,12 @@ export default function WaitlistModal({
         setIsOpen(false);
         setSubmitSuccess(false);
       }, 3000);
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error("Error submitting to waitlist:", error);
       setSubmitError(
-        error.message || "Something went wrong. Please try again."
+        error instanceof Error
+          ? error.message
+          : "Something went wrong. Please try again."
       );
     } finally {
       setIsSubmitting(false);
@@ -119,7 +121,9 @@ export default function WaitlistModal({
 
         {submitSuccess ? (
           <div className="bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-300 p-4 rounded-md mb-4 text-center">
-            <p>Thank you for joining our waitlist! We'll be in touch soon.</p>
+            <p>
+              Thank you for joining our waitlist! We&apos;ll be in touch soon.
+            </p>
           </div>
         ) : (
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
@@ -200,7 +204,7 @@ export default function WaitlistModal({
             </div>
 
             <div className="text-center text-xs text-gray-500 dark:text-gray-400 mt-4">
-              We'll never share your information with third parties.
+              We&apos;ll never share your information with third parties.
             </div>
           </form>
         )}

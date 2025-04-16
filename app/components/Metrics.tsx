@@ -1,16 +1,3 @@
-interface MetricProps {
-  number: string;
-  label: string;
-}
-
-function Metric({ number, label }: MetricProps) {
-  return (
-    <div className="text-center">
-      <div className="text-3xl font-bold mb-1">{number}</div>
-      <div className="text-sm text-muted-foreground">{label}</div>
-    </div>
-  );
-}
 
 export default function Metrics() {
   return (

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import MetricsVisualization from "./MetricsVisualization";
 import Link from "next/link";
 import WaitlistModal from "./WaitlistModal";

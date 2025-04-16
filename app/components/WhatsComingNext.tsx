@@ -6,7 +6,7 @@ const WhatsComingNext = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-foreground col-span-1 sm:col-span-2 md:col-span-4 mb-4 md:mb-6">
-            What's Coming Next
+            What&apos;s Coming Next
           </h2>
 
           {/* Visual Dashboard Feature - Spans 2 columns on medium+ screens */}

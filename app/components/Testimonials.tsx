@@ -43,7 +43,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <p className="text-sm sm:text-base text-muted-foreground italic">
-                    "{testimonial.testimonial}"
+                    &quot;{testimonial.testimonial}&quot;
                   </p>
                 </div>
               ))}
@@ -74,7 +74,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <p className="text-sm sm:text-base text-muted-foreground italic">
-                    "{testimonial.testimonial}"
+                    &quot;{testimonial.testimonial}&quot;
                   </p>
                 </div>
               ))}
@@ -109,7 +109,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <p className="text-sm sm:text-base text-muted-foreground italic">
-                    "{testimonial.testimonial}"
+                    &quot;{testimonial.testimonial}&quot;
                   </p>
                 </div>
               ))}
@@ -140,7 +140,7 @@ export default function Testimonials() {
                     </div>
                   </div>
                   <p className="text-sm sm:text-base text-muted-foreground italic">
-                    "{testimonial.testimonial}"
+                    &quot;{testimonial.testimonial}&quot;
                   </p>
                 </div>
               ))}

@@ -10,8 +10,8 @@ const OpenSource = () => {
                   Built in the Open, Evolving with You
                 </h2>
                 <p className="text-xl text-foreground mb-8 text-left">
-                  We're inviting a select group of developers and researchers to
-                  shape Ragas together.
+                  We&apos;re inviting a select group of developers and
+                  researchers to shape Ragas together.
                 </p>
                 <div className="flex flex-wrap gap-4 justify-start w-full">
                   <a
