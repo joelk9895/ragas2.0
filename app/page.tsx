@@ -4,7 +4,6 @@ import Features from "./components/Features";
 import Metrics from "./components/Metrics";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials";
 import WhatsComingNext from "./components/WhatsComingNext";
 import OpenSource from "./components/OpenSource";
 import CTA from "./components/CTA";
@@ -19,7 +18,6 @@ export default function Home() {
         <Features />
         <WhatsComingNext />
         <OpenSource />
-        <Testimonials />
         <FAQ />
         <CTA />
       </main>
