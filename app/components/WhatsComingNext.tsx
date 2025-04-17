@@ -10,20 +10,20 @@ const WhatsComingNext = () => {
           </h2>
 
           {/* Visual Dashboard Feature - Spans 2 columns on medium+ screens */}
-          <div className="group col-span-1 sm:col-span-1 md:col-span-2 rounded-xl border border-amber-200 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 bg-white shadow-lg shadow-amber-100/30 hover:shadow-amber-200/40 hover:-translate-y-1">
-            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-black flex items-center">
-              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-amber-100 text-amber-600 rounded-full mr-2 sm:mr-3 flex-shrink-0">
+          <div className="group col-span-1 sm:col-span-1 md:col-span-2 rounded-xl border border-amber-100/20 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 shadow-sm shadow-amber-100/10 hover:shadow-amber-200/40 hover:-translate-y-1">
+            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-foreground flex items-center">
+              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-primary/10 text-primary rounded-full mr-2 sm:mr-3 flex-shrink-0">
                 1
               </span>
               <span className="leading-tight">
                 Visual Dashboard & Reporting
               </span>
             </h3>
-            <p className="text-gray-500 mb-4 sm:mb-8 text-sm sm:text-base">
+            <p className="text-muted-foreground mb-4 sm:mb-8 text-sm sm:text-base">
               Enhanced visualization tools with customizable dashboards and
               automated reporting features.
             </p>
-            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-br from-transparent to-amber-50 rounded-lg">
+            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-br from-transparent to-primary/5 rounded-lg">
               <div className="w-40 h-32 sm:w-48 sm:h-36 flex items-center justify-center">
                 <svg
                   viewBox="0 0 200 120"
@@ -38,8 +38,8 @@ const WhatsComingNext = () => {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#D97706" />
-                      <stop offset="100%" stopColor="#F59E0B" />
+                      <stop offset="0%" stopColor="#F7D055" />
+                      <stop offset="100%" stopColor="#D4A017" />
                     </linearGradient>
                     <linearGradient
                       id="dashboardGradient2"
@@ -48,8 +48,8 @@ const WhatsComingNext = () => {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#92400E" />
-                      <stop offset="100%" stopColor="#B45309" />
+                      <stop offset="0%" stopColor="#FFDF00" />
+                      <stop offset="100%" stopColor="#EAC117" />
                     </linearGradient>
                     <filter
                       id="dashboardShadow"
@@ -62,8 +62,8 @@ const WhatsComingNext = () => {
                         dx="1"
                         dy="1"
                         stdDeviation="2"
-                        floodColor="#9a711e"
-                        floodOpacity="0.2"
+                        floodColor="#DAA520"
+                        floodOpacity="0.3"
                       />
                     </filter>
                   </defs>
@@ -74,9 +74,10 @@ const WhatsComingNext = () => {
                     width="160"
                     height="100"
                     rx="5"
-                    fill="#FFFFFF"
-                    stroke="#92400E"
+                    fill="none"
+                    stroke="#CFB53B"
                     strokeWidth="2"
+                    strokeOpacity="0.4"
                   />
 
                   {/* Chart Elements */}
@@ -124,30 +125,30 @@ const WhatsComingNext = () => {
                     width="160"
                     height="20"
                     rx="5"
-                    fill="#FBBF24"
-                    fillOpacity="0.3"
+                    fill="#E6C200"
+                    fillOpacity="0.2"
                   />
-                  <circle cx="35" cy="20" r="5" fill="#F59E0B" />
-                  <circle cx="50" cy="20" r="5" fill="#D97706" />
-                  <circle cx="65" cy="20" r="5" fill="#B45309" />
+                  <circle cx="35" cy="20" r="5" fill="#FFD700" fillOpacity="0.8" />
+                  <circle cx="50" cy="20" r="5" fill="#DAA520" fillOpacity="0.8" />
+                  <circle cx="65" cy="20" r="5" fill="#B8860B" fillOpacity="0.8" />
                 </svg>
               </div>
             </div>
           </div>
 
           {/* Custom Metric SDK - Spans 2 columns on medium+ screens */}
-          <div className="group col-span-1 sm:col-span-1 md:col-span-2 rounded-xl border border-amber-200 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 bg-white shadow-lg shadow-amber-100/30 hover:shadow-amber-200/40 hover:-translate-y-1">
-            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-black flex items-center">
-              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-amber-100 text-amber-600 rounded-full mr-2 sm:mr-3 flex-shrink-0">
+          <div className="group col-span-1 sm:col-span-1 md:col-span-2 rounded-xl border border-amber-100/20 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 shadow-sm shadow-amber-100/10 hover:shadow-amber-200/40 hover:-translate-y-1">
+            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-foreground flex items-center">
+              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-primary/10 text-primary rounded-full mr-2 sm:mr-3 flex-shrink-0">
                 2
               </span>
               <span className="leading-tight">Custom Metric SDK</span>
             </h3>
-            <p className="text-gray-500 mb-4 sm:mb-8 text-sm sm:text-base">
+            <p className="text-muted-foreground mb-4 sm:mb-8 text-sm sm:text-base">
               Build and deploy your own evaluation metrics with our easy-to-use
               software development kit.
             </p>
-            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-bl from-transparent to-amber-50 rounded-lg">
+            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-bl from-transparent to-primary/5 rounded-lg">
               <div className="w-32 h-32 sm:w-40 sm:h-40 flex items-center justify-center">
                 <svg
                   viewBox="0 0 200 200"
@@ -162,8 +163,18 @@ const WhatsComingNext = () => {
                       x2="100%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#D97706" />
-                      <stop offset="100%" stopColor="#FBBF24" />
+                      <stop offset="0%" stopColor="#F7D055" />
+                      <stop offset="100%" stopColor="#DAA520" />
+                    </linearGradient>
+                    <linearGradient
+                      id="goldGlow"
+                      x1="0%"
+                      y1="0%"
+                      x2="100%"
+                      y2="100%"
+                    >
+                      <stop offset="0%" stopColor="#FFDF00" />
+                      <stop offset="100%" stopColor="#CFB53B" />
                     </linearGradient>
                   </defs>
                   {/* Code Window */}
@@ -173,9 +184,10 @@ const WhatsComingNext = () => {
                     width="120"
                     height="120"
                     rx="5"
-                    fill="#FFFFFF"
-                    stroke="#92400E"
+                    fill="none"
+                    stroke="#CFB53B"
                     strokeWidth="2"
+                    strokeOpacity="0.6"
                   />
                   <rect
                     x="40"
@@ -183,8 +195,8 @@ const WhatsComingNext = () => {
                     width="120"
                     height="20"
                     rx="5"
-                    fill="#FBBF24"
-                    fillOpacity="0.3"
+                    fill="#E6C200"
+                    fillOpacity="0.2"
                   />
 
                   {/* Code Lines */}
@@ -193,7 +205,8 @@ const WhatsComingNext = () => {
                     y1="80"
                     x2="110"
                     y2="80"
-                    stroke="#B45309"
+                    stroke="#DAA520"
+                    strokeOpacity="0.8"
                     strokeWidth="2"
                   />
                   <line
@@ -201,7 +214,8 @@ const WhatsComingNext = () => {
                     y1="90"
                     x2="140"
                     y2="90"
-                    stroke="#D97706"
+                    stroke="#CFB53B"
+                    strokeOpacity="0.7"
                     strokeWidth="2"
                   />
                   <line
@@ -209,7 +223,8 @@ const WhatsComingNext = () => {
                     y1="100"
                     x2="120"
                     y2="100"
-                    stroke="#D97706"
+                    stroke="#CFB53B"
+                    strokeOpacity="0.7"
                     strokeWidth="2"
                   />
                   <line
@@ -217,7 +232,8 @@ const WhatsComingNext = () => {
                     y1="110"
                     x2="130"
                     y2="110"
-                    stroke="#B45309"
+                    stroke="#DAA520"
+                    strokeOpacity="0.8"
                     strokeWidth="2"
                   />
                   <line
@@ -225,7 +241,8 @@ const WhatsComingNext = () => {
                     y1="120"
                     x2="100"
                     y2="120"
-                    stroke="#D97706"
+                    stroke="#CFB53B"
+                    strokeOpacity="0.7"
                     strokeWidth="2"
                   />
                   <line
@@ -233,7 +250,8 @@ const WhatsComingNext = () => {
                     y1="130"
                     x2="90"
                     y2="130"
-                    stroke="#B45309"
+                    stroke="#DAA520"
+                    strokeOpacity="0.8"
                     strokeWidth="2"
                   />
 
@@ -245,8 +263,8 @@ const WhatsComingNext = () => {
                     fill="url(#sdkGradient1)"
                     opacity="0.8"
                   />
-                  <circle cx="145" cy="145" r="15" fill="#FFFFFF" />
-                  <circle cx="145" cy="145" r="5" fill="#B45309" />
+                  <circle cx="145" cy="145" r="15" fill="none" stroke="#FFD700" strokeWidth="1" strokeOpacity="0.6" />
+                  <circle cx="145" cy="145" r="5" fill="#DAA520" fillOpacity="0.9" />
 
                   {/* Gear Teeth */}
                   {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => (
@@ -257,7 +275,8 @@ const WhatsComingNext = () => {
                       width="10"
                       height="10"
                       rx="2"
-                      fill="#92400E"
+                      fill="#FFD700"
+                      fillOpacity="0.9"
                       transform={`rotate(${angle}, 145, 145)`}
                     />
                   ))}
@@ -267,18 +286,18 @@ const WhatsComingNext = () => {
           </div>
 
           {/* Granular Failure Analysis - Spans 3 columns on medium+ screens */}
-          <div className="group col-span-1 sm:col-span-1 md:col-span-3 rounded-xl border border-amber-200 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 bg-white shadow-lg shadow-amber-100/30 hover:shadow-amber-200/40 hover:-translate-y-1">
-            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-black flex items-center">
-              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-amber-100 text-amber-600 rounded-full mr-2 sm:mr-3 flex-shrink-0">
+          <div className="group col-span-1 sm:col-span-1 md:col-span-3 rounded-xl border border-amber-100/20 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 shadow-sm shadow-amber-100/10 hover:shadow-amber-200/40 hover:-translate-y-1">
+            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-foreground flex items-center">
+              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-primary/10 text-primary rounded-full mr-2 sm:mr-3 flex-shrink-0">
                 3
               </span>
               <span className="leading-tight">Granular Failure Analysis</span>
             </h3>
-            <p className="text-gray-500 mb-4 sm:mb-8 text-sm sm:text-base">
+            <p className="text-muted-foreground mb-4 sm:mb-8 text-sm sm:text-base">
               Detailed insights into specific failure modes with actionable
               recommendations.
             </p>
-            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-br from-transparent to-amber-50 rounded-lg">
+            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-br from-transparent to-primary/5 rounded-lg">
               <div className="w-32 h-32 sm:w-40 sm:h-40 flex items-center justify-center">
                 <svg
                   viewBox="0 0 200 200"
@@ -293,8 +312,8 @@ const WhatsComingNext = () => {
                       x2="100%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#92400E" />
-                      <stop offset="100%" stopColor="#B45309" />
+                      <stop offset="0%" stopColor="#E6C200" />
+                      <stop offset="100%" stopColor="#B8860B" />
                     </linearGradient>
                     <linearGradient
                       id="analysisGradient2"
@@ -303,8 +322,8 @@ const WhatsComingNext = () => {
                       x2="100%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#D97706" />
-                      <stop offset="100%" stopColor="#F59E0B" />
+                      <stop offset="0%" stopColor="#F7D055" />
+                      <stop offset="100%" stopColor="#DAA520" />
                     </linearGradient>
                   </defs>
                   {/* Magnifying Glass */}
@@ -332,7 +351,8 @@ const WhatsComingNext = () => {
                     y="75"
                     width="30"
                     height="5"
-                    fill="#92400E"
+                    fill="#DAA520"
+                    fillOpacity="0.8"
                     rx="1"
                   />
                   <rect
@@ -340,7 +360,8 @@ const WhatsComingNext = () => {
                     y="85"
                     width="20"
                     height="5"
-                    fill="#92400E"
+                    fill="#DAA520"
+                    fillOpacity="0.8"
                     rx="1"
                   />
                   <rect
@@ -348,7 +369,8 @@ const WhatsComingNext = () => {
                     y="95"
                     width="25"
                     height="5"
-                    fill="#92400E"
+                    fill="#DAA520"
+                    fillOpacity="0.8"
                     rx="1"
                   />
 
@@ -357,25 +379,28 @@ const WhatsComingNext = () => {
                     cx="155"
                     cy="50"
                     r="20"
-                    fill="#FEF3C7"
-                    stroke="#F59E0B"
+                    fill="none"
+                    stroke="#FFD700"
                     strokeWidth="2"
+                    strokeOpacity="0.6"
                   />
                   <line
                     x1="145"
                     y1="50"
                     x2="165"
                     y2="50"
-                    stroke="#B45309"
+                    stroke="#DAA520"
                     strokeWidth="3"
+                    strokeOpacity="0.9"
                   />
                   <line
                     x1="155"
                     y1="40"
                     x2="155"
                     y2="60"
-                    stroke="#B45309"
+                    stroke="#DAA520"
                     strokeWidth="3"
+                    strokeOpacity="0.9"
                   />
                 </svg>
               </div>
@@ -383,17 +408,17 @@ const WhatsComingNext = () => {
           </div>
 
           {/* Evaluation Dataset Hub - Spans 1 column */}
-          <div className="group col-span-1 sm:col-span-1 md:col-span-1 rounded-xl border border-amber-200 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 bg-white shadow-lg shadow-amber-100/30 hover:shadow-amber-200/40 hover:-translate-y-1">
-            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-black flex items-center">
-              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-amber-100 text-amber-600 rounded-full mr-2 sm:mr-3 flex-shrink-0">
+          <div className="group col-span-1 sm:col-span-1 md:col-span-1 rounded-xl border border-amber-100/20 p-4 sm:p-6 md:p-8 hover:border-amber-400 transition-all duration-300 shadow-sm shadow-amber-100/10 hover:shadow-amber-200/40 hover:-translate-y-1">
+            <h3 className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 text-foreground flex items-center">
+              <span className="inline-flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 bg-primary/10 text-primary rounded-full mr-2 sm:mr-3 flex-shrink-0">
                 4
               </span>
               <span className="leading-tight">Dataset Hub</span>
             </h3>
-            <p className="text-gray-500 mb-4 sm:mb-8 text-sm sm:text-base">
+            <p className="text-muted-foreground mb-4 sm:mb-8 text-sm sm:text-base">
               Access curated evaluation datasets across domains.
             </p>
-            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-bl from-transparent to-amber-50 rounded-lg">
+            <div className="relative h-36 sm:h-44 flex items-center justify-center bg-gradient-to-bl from-transparent to-primary/5 rounded-lg">
               <div className="w-32 h-32 sm:w-40 sm:h-40 flex items-center justify-center">
                 <svg
                   viewBox="0 0 200 200"
@@ -408,8 +433,8 @@ const WhatsComingNext = () => {
                       x2="100%"
                       y2="100%"
                     >
-                      <stop offset="0%" stopColor="#D97706" />
-                      <stop offset="100%" stopColor="#F59E0B" />
+                      <stop offset="0%" stopColor="#F7D055" />
+                      <stop offset="100%" stopColor="#CFB53B" />
                     </linearGradient>
                     <linearGradient
                       id="datasetGradient2"
@@ -418,8 +443,8 @@ const WhatsComingNext = () => {
                       x2="100%"
                       y2="0%"
                     >
-                      <stop offset="0%" stopColor="#92400E" />
-                      <stop offset="100%" stopColor="#B45309" />
+                      <stop offset="0%" stopColor="#FFDF00" />
+                      <stop offset="100%" stopColor="#DAA520" />
                     </linearGradient>
                   </defs>
                   {/* Stack of Books/Datasets */}
@@ -462,7 +487,8 @@ const WhatsComingNext = () => {
                     y1="70"
                     x2="145"
                     y2="70"
-                    stroke="#FEF3C7"
+                    stroke="#FFD700"
+                    strokeOpacity="0.5"
                     strokeWidth="2"
                   />
                   <line
@@ -470,7 +496,8 @@ const WhatsComingNext = () => {
                     y1="90"
                     x2="140"
                     y2="90"
-                    stroke="#FEF3C7"
+                    stroke="#FFD700"
+                    strokeOpacity="0.5"
                     strokeWidth="2"
                   />
                   <line
@@ -478,7 +505,8 @@ const WhatsComingNext = () => {
                     y1="110"
                     x2="135"
                     y2="110"
-                    stroke="#FEF3C7"
+                    stroke="#FFD700"
+                    strokeOpacity="0.5"
                     strokeWidth="2"
                   />
                   <line
@@ -486,7 +514,8 @@ const WhatsComingNext = () => {
                     y1="130"
                     x2="130"
                     y2="130"
-                    stroke="#FEF3C7"
+                    stroke="#FFD700"
+                    strokeOpacity="0.5"
                     strokeWidth="2"
                   />
                 </svg>
